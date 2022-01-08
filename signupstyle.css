@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+body {
+    background-image: url("bgsignup.jpeg");
+}
+
+.signinsection {
+    max-width: 350px;
+    min-height: 400px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff
+}
+
+.logo {
+    width: 100px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100;
+  }
+
+.signinsection .name {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555
+}
+
+.signinsection .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: #666;
+    padding: 10px 15px 10px 10px
+}
+
+.signinsection .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff
+}
+
+.signinsection .form-field .fas {
+    color: #555
+}
+
+.signinsection .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px
+}
+
+.signinsection .btn:hover {
+    background-color: #039BE5
+}
+
+.signinsection a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #03A9F4
+}
+
+.signinsection a:hover {
+    color: #039BE5
+}
